@@ -1,0 +1,12 @@
+FROM python:3.6
+
+RUN pip install adal msrestazure kubernetes
+
+RUN curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash \
+    && helm version
+
+COPY ./arc_onboarding/install_arc_agents.py /
+
+COPY ./common/utility.py /
+
+CMD ["python", "./install_arc_agents.py"]
