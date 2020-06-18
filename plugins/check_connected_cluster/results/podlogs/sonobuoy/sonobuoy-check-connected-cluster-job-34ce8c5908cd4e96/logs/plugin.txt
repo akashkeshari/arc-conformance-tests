@@ -1,0 +1,3 @@
+Successfully fetched credentials object.
+The connected cluster resource was created successfully.
+Saving Results ...

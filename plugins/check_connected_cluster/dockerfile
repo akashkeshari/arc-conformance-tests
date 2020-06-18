@@ -1,0 +1,13 @@
+FROM python:3.6
+
+RUN pip install adal msrestazure azure-mgmt-hybridkubernetes
+
+COPY ./check_connected_cluster/check_connected_cluster.py /
+
+COPY ./common/arm_rest_utility.py /
+
+COPY ./common/connected_cluster_utility.py /
+
+COPY ./common/results_utility.py /
+
+CMD ["python", "./check_connected_cluster.py"]

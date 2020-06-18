@@ -1,5 +1,0 @@
-Successfully fetched helm chart path.
-Successfully pulled helm charts.
-Successfully exported helm charts.
-Successfully installed helm charts.
-Saving Results ...

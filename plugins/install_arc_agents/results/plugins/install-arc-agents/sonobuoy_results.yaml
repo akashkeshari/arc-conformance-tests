@@ -1,0 +1,9 @@
+name: install-arc-agents
+status: passed
+meta:
+  type: summary
+items:
+- name: out
+  status: passed
+  meta:
+    file: results/global/out

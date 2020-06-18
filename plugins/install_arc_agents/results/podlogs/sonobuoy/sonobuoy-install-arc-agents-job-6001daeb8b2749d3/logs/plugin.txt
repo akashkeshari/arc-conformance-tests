@@ -1,0 +1,7 @@
+Successfully fetched helm chart path.
+Successfully pulled helm charts.
+Successfully exported helm charts.
+['helm', 'install', 'azure-arc', 'azure-arc-k8sagents', '--atomic', '--set', 'global.subscriptionId=1bfbb5d0-917e-4346-9026-1d3b344417f5', '--set', 'global.resourceGroupName=akkeshar-test2', '--set', 'global.resourceName=testc003', '--set', 'global.location=eastus', '--set', 'global.tenantId=72f988bf-86f1-41af-91ab-2d7cd011db47', '--set', 'global.clientId=d2508c14-ddcd-41ed-a8e4-1492f37a6daa', '--set', 'global.clientSecret=014986b3-50d6-44dd-b231-c1e8d4a808ed']
+Unable to install helm release: Error: release azure-arc failed, and has been uninstalled due to atomic being set: timed out waiting for the condition
+
+Saving Results ...
