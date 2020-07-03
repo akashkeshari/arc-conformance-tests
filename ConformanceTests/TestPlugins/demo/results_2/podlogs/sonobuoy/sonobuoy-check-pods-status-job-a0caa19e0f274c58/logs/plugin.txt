@@ -1,0 +1,5 @@
+Successfully fetched pod list.
+Generated the metadata fields dictionary.
+{'cluster-metadata-operator-f574bb666-6lstt': 0, 'clusteridentityoperator-86f7747bbf-br7qv': 0, 'config-agent-5d8b5755b4-krcbl': 0, 'connect-agent-67f75ddd56-njxp5': 0, 'controller-manager-66487dd58c-ncw74': 0, 'flux-logs-agent-645965dd85-ngwx6': 0, 'metrics-agent-579ff847d-xfd2k': 0, 'resource-sync-agent-f494bf554-vbxzr': 0}
+Successfully checked pod status.
+Saving Results ...

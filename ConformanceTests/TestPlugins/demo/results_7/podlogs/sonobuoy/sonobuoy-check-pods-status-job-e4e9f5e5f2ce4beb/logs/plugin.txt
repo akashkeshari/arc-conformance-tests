@@ -1,0 +1,5 @@
+Successfully fetched pod list.
+Generated the metadata fields dictionary.
+{'azure-voting-app-dc976fdc4-nltgt': 0, 'azure-voting-app-helm-prod-helm-operator-6458c95c48-zps2z': 0, 'memcached-5bd7849b84-gdm2b': 0, 'vote-back-azure-vote-app-64f89c5dcf-hm8tn': 0, 'vote-front-azure-vote-app-f64d58845-d874r': 0}
+Successfully checked pod status.
+Saving Results ...

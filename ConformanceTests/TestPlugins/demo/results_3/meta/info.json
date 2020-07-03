@@ -1,0 +1,1 @@
+{"plugins":["check-crd-status","check-kubernetes-secret","check-pod-logs","check-connected-cluster"]}

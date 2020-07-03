@@ -1,0 +1,1 @@
+<testsuites disabled="0" errors="0" failures="0" tests="1" time="0.0"><testsuite disabled="0" errors="0" failures="0" name="Azure Arc Conformance Suite" skipped="0" tests="1" time="0"><testcase name="check-kubernetes-secret" /></testsuite></testsuites>

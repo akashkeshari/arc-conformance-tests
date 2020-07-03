@@ -1,0 +1,11 @@
+sonobuoy-config:
+  driver: Job
+  plugin-name: install-helm-charts
+  result-format: junit
+spec:
+  image: akashkeshari3010/arc-conformance-test:install-azure-arc-chartv01
+  name: plugin
+  resources: {}
+  volumeMounts:
+  - mountPath: /tmp/results
+    name: results

@@ -1,0 +1,5 @@
+Successfully fetched pod list.
+Generated the metadata fields dictionary.
+{'azure-vote-back-7d6d77f4ff-rhjrb': 0, 'azure-vote-front-86f7f4448c-z2z72': 0}
+Successfully checked pod status.
+Saving Results ...

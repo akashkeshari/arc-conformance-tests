@@ -1,0 +1,29 @@
+This file consists of a breif description about the conformance tests
+
+Install-Arc-Agents: 
+
+This test will be responsible for installing the arc-agents onto the kubernetes cluster.
+It will take in the parameters required for helm onboarding, pull the helm charts and install them onto the cluster.
+This will be a spn based onboarding. 
+
+ 
+
+Check-pod-status: 
+
+This test will check the status of all the pods in the azure-arc namespace and ensure that all the pod containers 
+are in ‘Running’ state (without any restarts) and fail otherwise mentioning the pod name that caused failure. 
+
+ 
+
+Check-Identity-Operator: 
+
+This test will first check if the crd instance ‘config-agent-identity-request’ is created. Then it will check 
+if the secrets ‘azure-identity-certificate’ and ‘config-agent-identity-request-token’ are present.
+This will ensure that MSI is working e2e. 
+
+ 
+
+Check-Connected-Cluster: 
+
+This test will ensure that the secret ‘azure-arc-connect-privatekey’ is present and get the connected cluster resource from ARM.
+It will fail if the connected cluster was not found or was found and did not have its provisioning state as ‘Succeeded’. 

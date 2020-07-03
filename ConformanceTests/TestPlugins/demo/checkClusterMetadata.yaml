@@ -1,0 +1,11 @@
+sonobuoy-config:
+  driver: Job
+  plugin-name: check-cluster-metadata
+  result-format: junit
+spec:
+  image: akashkeshari3010/arc-conformance-test:check-cluster-metadatav01
+  name: plugin
+  resources: {}
+  volumeMounts:
+  - mountPath: /tmp/results
+    name: results

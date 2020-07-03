@@ -1,0 +1,3 @@
+Generated the pod log dictionary.
+Successfully checked pod logs.
+Saving Results ...

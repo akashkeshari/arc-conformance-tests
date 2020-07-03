@@ -1,0 +1,1 @@
+{"plugins":["create-kubernetes-configuration","check-kubernetes-configuration","check-kubernetes-secret"]}

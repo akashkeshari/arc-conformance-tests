@@ -1,0 +1,4 @@
+Successfully fetched credentials object.
+Generated the metadata fields dictionary.
+The connected cluster resource was updated with metadata properties successfully.
+Saving Results ...

@@ -1,0 +1,11 @@
+sonobuoy-config:
+  driver: Job
+  plugin-name: check-connected-cluster
+  result-format: junit
+spec:
+  image: akashkeshari3010/arc-conformance-test:check-connected-clusterv02
+  name: plugin
+  resources: {}
+  volumeMounts:
+  - mountPath: /tmp/results
+    name: results

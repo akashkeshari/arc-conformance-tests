@@ -1,9 +1,0 @@
-name: arc-onboarding
-status: passed
-meta:
-  type: summary
-items:
-- name: out
-  status: passed
-  meta:
-    file: results/global/out

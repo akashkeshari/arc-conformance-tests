@@ -1,0 +1,11 @@
+sonobuoy-config:
+  driver: Job
+  plugin-name: create-kubernetes-configuration
+  result-format: junit
+spec:
+  image: akashkeshari3010/arc-conformance-test:create-kubernetes-configv01
+  name: plugin
+  resources: {}
+  volumeMounts:
+  - mountPath: /tmp/results
+    name: results

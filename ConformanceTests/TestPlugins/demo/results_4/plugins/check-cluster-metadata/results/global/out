@@ -1,0 +1,4 @@
+Metadata Fields: ['kubernetes_version', 'total_node_count', 'agent_version']
+kubernetes_version: 1.18.2
+total_node_count: 3
+agent_version: 0.2.4

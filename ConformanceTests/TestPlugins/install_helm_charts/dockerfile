@@ -1,0 +1,16 @@
+FROM python:3.6
+
+RUN pip install adal kubernetes msrestazure junit_xml
+
+RUN curl https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3 | bash \
+    && helm version
+
+COPY ./install_helm_charts/install_helm_charts.py /
+
+COPY ./common/arm_rest_utility.py /
+
+COPY ./common/helm_utility.py /
+
+COPY ./common/results_utility.py /
+
+CMD ["python", "./install_helm_charts.py"]

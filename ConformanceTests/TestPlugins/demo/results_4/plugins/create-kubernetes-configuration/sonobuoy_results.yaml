@@ -1,0 +1,16 @@
+name: create-kubernetes-configuration
+status: passed
+meta:
+  type: summary
+items:
+- name: result.xml
+  status: passed
+  meta:
+    file: results/global/result.xml
+    type: file
+  items:
+  - name: Azure Arc Conformance Suite
+    status: passed
+    items:
+    - name: create-kubernetes-configuration
+      status: passed

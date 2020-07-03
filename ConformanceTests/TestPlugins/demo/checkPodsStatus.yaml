@@ -1,0 +1,11 @@
+sonobuoy-config:
+  driver: Job
+  plugin-name: check-pods-status
+  result-format: junit
+spec:
+  image: akashkeshari3010/arc-conformance-test:check-arc-agent-pods
+  name: plugin
+  resources: {}
+  volumeMounts:
+  - mountPath: /tmp/results
+    name: results

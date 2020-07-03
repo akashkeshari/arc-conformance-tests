@@ -1,0 +1,3 @@
+Generated the status fields list.
+The status fields have been successfully updated in the CRD instance
+Saving Results ...
